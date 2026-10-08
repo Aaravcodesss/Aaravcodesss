@@ -2,13 +2,13 @@
 
 <a href="https://github.com/Aaravcodesss"><img src="assets/night-match.svg" width="100%" alt="Aarav — a passing move on a neon tactics board, finished with a rainbow flick"></a>
 
-<a href="https://github.com/Aaravcodesss"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=800&color=00E5FF&center=true&vCenter=true&width=820&lines=Left+wing+%C2%B7+developer+%C2%B7+India;Web+Dev+team+%40+Nexus+MUJ;Pass.+Move.+Commit.+Repeat.;Dribbling+past+bugs+since+day+one;Final+score%3A+Aarav+4+%E2%80%93+3+Bugs+FC" alt="Typing intro"></a>
+<a href="https://github.com/Aaravcodesss"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=800&color=00E5FF&center=true&vCenter=true&width=820&lines=B.Tech+CSE+%C2%B7+coding+enthusiast+%C2%B7+India;Jr.+Committee+%C2%B7+Web+Dev+%40+Nexus+MUJ;Pass.+Move.+Commit.+Repeat.;Dribbling+past+bugs+since+day+one;Final+score%3A+Aarav+4+%E2%80%93+3+Bugs+FC" alt="Typing intro"></a>
 
 <p>
 <a href="https://github.com/Aaravcodesss?tab=followers"><img src="https://img.shields.io/github/followers/Aaravcodesss?style=flat-square&logo=github&labelColor=05070d&color=00e5ff&label=squad"></a>
 <img src="https://komarev.com/ghpvc/?username=Aaravcodesss&style=flat-square&color=39ff88&label=in+the+stands">
 <img src="https://img.shields.io/badge/position-left_wing-ff2a46?style=flat-square&labelColor=05070d">
-<img src="https://img.shields.io/badge/club-Nexus_MUJ_·_Web_Dev-39ff88?style=flat-square&labelColor=05070d">
+<img src="https://img.shields.io/badge/club-Nexus_MUJ_·_Jr._Committee_Web_Dev-39ff88?style=flat-square&labelColor=05070d">
 <img src="https://img.shields.io/badge/open_to-collabs-e8eef5?style=flat-square&labelColor=05070d">
 </p>
 
@@ -20,11 +20,12 @@
 
 <img align="right" width="150" src="https://github.com/Aaravcodesss.png?size=300" alt="Aarav" style="border-radius:50%">
 
-Hey, I'm **Aarav** 👋 — a developer from **India 🇮🇳** who plays code like a **left winger**: take on the defender, beat them with a bit of skill, then put the ball in the net.
+Hey there 👋 I'm **Aarav**, a **B.Tech CSE student** and a coding enthusiast who treats every project like a matchday. I study the game, take on the defenders, and look for that one bit of skill that gets the ball in the net.
 
-I learn by doing. I start projects, break them, fix them and ship them, and every bug is just another defender to get past. Right now I'm working mostly in **Python** and **JavaScript**, and I build anything that makes me ask *"wait, how does that actually work?"*
+Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team at Nexus — MUJ chapter** 🛠️, where I build for the web with the squad and learn something new every week. I learn by doing: I start projects, break them, fix them and ship them, and every bug is just another defender to get past.
 
-- 🛠️ **Current club:** on the **Web Dev team** at **Nexus — MUJ chapter**, building for the web with the squad
+- 🎓 **Academy:** B.Tech in Computer Science & Engineering
+- 🛠️ **Current club:** Jr. Committee · Web Dev team @ **Nexus MUJ**
 - ⚽ **Style of play:** simple passes, clean commits, and a bit of flair when it counts
 - 🎯 **This season:** finish more projects than I start, and concede fewer goals to Bugs FC
 - 🧠 **In training:** sharper debugging, cleaner code, and the next language on the list
