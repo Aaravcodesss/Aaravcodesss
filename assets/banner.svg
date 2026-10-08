@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <!-- Sky that keeps shifting colour -->
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#04163d;#200410;#020617" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#03301a">
+        <animate attributeName="stop-color" values="#03301a;#0a2a6b;#4a0616;#03301a" dur="12s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Name gradient: neon green -> cyan -> blue -> red -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39ff14">
+        <animate attributeName="stop-color" values="#39ff14;#00e5ff;#2979ff;#ff1744;#39ff14" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#00e5ff;#2979ff;#ff1744;#39ff14;#00e5ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#ff1744;#39ff14;#00e5ff;#2979ff;#ff1744" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="ballClip"><circle r="26"/></clipPath>
+
+    <!-- Football -->
+    <g id="ball">
+      <circle r="26" fill="#ffffff" stroke="#111" stroke-width="2"/>
+      <g clip-path="url(#ballClip)" fill="#111" stroke="#111" stroke-width="1.5">
+        <polygon points="0,-9 8.6,-2.8 5.3,7.3 -5.3,7.3 -8.6,-2.8"/>
+        <g id="patch"><polygon transform="translate(0,-25)" points="0,-8 7.6,-2.5 4.7,6.5 -4.7,6.5 -7.6,-2.5"/><line x1="0" y1="-9" x2="0" y2="-19"/></g>
+        <use href="#patch" transform="rotate(72)"/>
+        <use href="#patch" transform="rotate(144)"/>
+        <use href="#patch" transform="rotate(216)"/>
+        <use href="#patch" transform="rotate(288)"/>
+      </g>
+      <circle r="26" fill="none" stroke="#111" stroke-width="2"/>
+      <ellipse cx="-9" cy="-10" rx="7" ry="4" fill="#fff" opacity="0.5"/>
+    </g>
+  </defs>
+
+  <!-- Night sky -->
+  <rect width="1200" height="320" fill="url(#sky)"/>
+
+  <!-- Stars / camera flashes -->
+  <g fill="#fff">
+    <circle cx="120" cy="40" r="1.6"><animate attributeName="opacity" values="0;1;0" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="25" r="1.2"><animate attributeName="opacity" values="1;0;1" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="55" r="1.8"><animate attributeName="opacity" values="0;1;0" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="30" r="1.4"><animate attributeName="opacity" values="1;0;1" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="60" r="1.6"><animate attributeName="opacity" values="0;1;0" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="35" r="1.3"><animate attributeName="opacity" values="1;0;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Floodlights with sweeping beams -->
+  <g>
+    <polygon points="60,10 20,10 -80,320 280,320" fill="url(#beam)">
+      <animate attributeName="opacity" values="0.25;0.7;0.25" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="1180,10 1140,10 920,320 1280,320" fill="url(#beam)">
+      <animate attributeName="opacity" values="0.7;0.25;0.7" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <g fill="#c8f7ff" filter="url(#glow)">
+      <rect x="18" y="4" width="46" height="12" rx="3"/>
+      <rect x="1136" y="4" width="46" height="12" rx="3"/>
+    </g>
+  </g>
+
+  <!-- Pitch in perspective -->
+  <polygon points="140,200 1060,200 1200,320 0,320" fill="#0f7a2e"/>
+  <g fill="#13923a">
+    <polygon points="140,200 255,200 150,320 0,320"/>
+    <polygon points="370,200 485,200 450,320 300,320"/>
+    <polygon points="600,200 715,200 750,320 600,320"/>
+    <polygon points="830,200 945,200 1050,320 900,320"/>
+  </g>
+  <g fill="none" stroke="#e9ffe9" stroke-width="3" opacity="0.85">
+    <polygon points="140,200 1060,200 1200,320 0,320"/>
+    <line x1="600" y1="200" x2="600" y2="320"/>
+    <ellipse cx="600" cy="258" rx="120" ry="30"/>
+  </g>
+  <circle cx="600" cy="258" r="4" fill="#e9ffe9"/>
+
+  <!-- Big number 10 behind the name -->
+  <text x="600" y="190" text-anchor="middle" font-family="'Arial Black',Impact,sans-serif" font-weight="900" font-size="230" fill="#00e5ff" opacity="0.07">10
+    <animate attributeName="opacity" values="0.04;0.10;0.04" dur="4s" repeatCount="indefinite"/></text>
+
+  <!-- Name -->
+  <text x="600" y="128" text-anchor="middle" font-family="'Arial Black','Segoe UI',Impact,sans-serif" font-weight="900" font-size="92" letter-spacing="10" fill="url(#nameGrad)" filter="url(#glow)">AARAV</text>
+  <text x="600" y="170" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif" font-size="22" letter-spacing="6" fill="#e9ffe9" opacity="0.92">⚽ CODE WITH FLAIR ⚽</text>
+
+  <!-- Ball bouncing across the pitch, spinning -->
+  <g>
+    <animateMotion dur="7s" repeatCount="indefinite" path="M -60 270 Q 90 150 240 270 Q 390 170 540 270 Q 690 185 840 270 Q 990 200 1140 270 Q 1200 240 1260 270"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="1440" dur="7s" repeatCount="indefinite"/>
+      <use href="#ball"/>
+    </g>
+  </g>
+</svg>
