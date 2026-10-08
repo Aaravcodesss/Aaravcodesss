@@ -1,87 +1,141 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Aarav — animated football stadium banner"/>
+<a href="https://github.com/Aaravcodesss"><img src="assets/night-match.svg" width="100%" alt="Aarav — a passing move on a neon tactics board, finished with a rainbow flick"></a>
 
-<a href="https://github.com/Aaravcodesss">
-  <img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=36&duration=2600&pause=700&color=39FF14&center=true&vCenter=true&width=760&lines=Hey%2C+I%27m+Aarav+%E2%9A%BD;Dribbling+past+bugs+with+flair;Rainbow+flicks+%26+clean+commits;GOOOAL!+Build+passed+%F0%9F%8F%86" alt="Typing intro"/>
-</a>
+<a href="https://github.com/Aaravcodesss"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=800&color=00E5FF&center=true&vCenter=true&width=820&lines=Left+wing+%C2%B7+developer+%C2%B7+India;Pass.+Move.+Commit.+Repeat.;Dribbling+past+bugs+since+day+one;Final+score%3A+Aarav+4+%E2%80%93+3+Bugs+FC" alt="Typing intro"></a>
 
-<img src="https://komarev.com/ghpvc/?username=Aaravcodesss&label=FANS%20IN%20THE%20STADIUM&color=00c853&style=for-the-badge" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/Aaravcodesss?label=SQUAD&style=for-the-badge&color=00e5ff&labelColor=0a0f1f" alt="Followers"/>
-<img src="https://img.shields.io/badge/POSITION-LEFT%20WING%20DEV-ff1744?style=for-the-badge&labelColor=0a0f1f" alt="Position"/>
+<p>
+<a href="https://github.com/Aaravcodesss?tab=followers"><img src="https://img.shields.io/github/followers/Aaravcodesss?style=flat-square&logo=github&labelColor=05070d&color=00e5ff&label=squad"></a>
+<img src="https://komarev.com/ghpvc/?username=Aaravcodesss&style=flat-square&color=39ff88&label=in+the+stands">
+<img src="https://img.shields.io/badge/position-left_wing-ff2a46?style=flat-square&labelColor=05070d">
+<img src="https://img.shields.io/badge/open_to-collabs-e8eef5?style=flat-square&labelColor=05070d">
+</p>
 
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 🏟️ The Player
+## `00'` &nbsp;Kick-off
 
-<table>
-<tr>
-<td width="38%" align="center">
-  <img src="assets/player-card.svg" width="260" alt="Player card"/>
-</td>
-<td width="62%">
+<img align="right" width="150" src="https://github.com/Aaravcodesss.png?size=300" alt="Aarav" style="border-radius:50%">
 
-```yaml
-name:      Aarav
-club:      Code FC ⚽
-position:  Left wing dev · Neymar fan 🇧🇷
-base:      India 🇮🇳
-style:     Flair first — step-overs, rainbow flicks, clean commits
-currently: Training hard, learning new tricks every matchday
-ask_me:    Code, football, or best skill moves ✨
-motto:     "Play with flair. Ship with style."
-```
+I'm **Aarav** — I write code the way I like my football: **quick feet, simple passes, and a bit of flair** when it counts.
 
-</td>
-</tr>
-</table>
+- ⚽ Learning by **building, breaking and fixing** — every bug is just a defender to dribble past.
+- 🧠 Currently exploring: **Python, JavaScript** and whatever the next match throws at me.
+- 🇧🇷 Neymar fan. Strong believer that a rainbow flick belongs in every codebase (once).
 
-<img src="assets/divider.svg" width="100%"/>
-
-## 🧰 Starting XI (Tech Stack)
+<br clear="right">
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode&perline=7" alt="Tech stack"/>
+<img src="assets/scoreboard.svg" width="100%" alt="Live scoreboard — Aarav vs Bugs FC">
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<details>
+<summary>⏱️ <b>Quick question… who's winning?</b> &nbsp;<sub>(click for the result)</sub></summary>
+<br>
 
-## 📊 Match Stats
+> **Me. Always in stoppage time.**
+>
+> The bugs score first, every single match — NullPointer, off-by-one, merge conflicts. Doesn't matter. The winner always comes at **90+4'**. Keep scrolling for the stats. ↓
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## `15'` &nbsp;Team sheet
+
+<sub>Every position tells you something different. Tap one.</sub>
+
+<details>
+<summary>🟢 &nbsp;<b>Starting XI</b> — what I play with every day</summary>
+<br>
+
+| Position | Player | Role on the pitch |
+|:--|:--|:--|
+| 🧤 Keeper | **Git** | Keeps a clean sheet. Saves me when I break everything. |
+| 🛡️ Defence | **Python** | Solid, reliable, reads the game. |
+| ⚙️ Midfield | **JavaScript** | Runs the whole show — links everything together. |
+| ⚡ Wing | **HTML & CSS** | All the flair. The bit everyone actually sees. |
+
+</details>
+
+<details>
+<summary>🔵 &nbsp;<b>Training ground</b> — what I'm working on right now</summary>
+<br>
+
+- Building small projects end-to-end and shipping them, not just starting them
+- Getting sharper at debugging — fewer goals conceded to Bugs FC
+- Writing cleaner code: simple passes over hero balls
+
+</details>
+
+<details>
+<summary>🔴 &nbsp;<b>Transfer targets</b> — what I want to learn next</summary>
+<br>
+
+- React and building proper web apps
+- Backend + APIs, so the whole team plays together
+- Contributing to open source — playing in the bigger leagues
+
+</details>
+
+<br>
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aaravcodesss&show_icons=true&hide_border=false&bg_color=0a0f1f&title_color=39ff14&text_color=e6f0ff&icon_color=00e5ff&border_color=2979ff&custom_title=Season%20Stats%20%E2%9A%BD&rank_icon=github" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaravcodesss&layout=compact&bg_color=0a0f1f&title_color=39ff14&text_color=e6f0ff&border_color=2979ff&custom_title=Top%20Scorers%20(Languages)" alt="Top languages"/>
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=Aaravcodesss&background=0A0F1F&border=2979FF&ring=FF1744&fire=39FF14&currStreakNum=E6F0FF&sideNums=E6F0FF&currStreakLabel=00E5FF&sideLabels=39FF14&dates=8FB4FF&stroke=2979FF" alt="Unbeaten run (streak)"/>
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aaravcodesss&bg_color=0a0f1f&color=00e5ff&line=39ff14&point=ff1744&area=true&area_color=2979ff&hide_border=true&custom_title=Match%20Form" width="100%" alt="Activity graph"/>
+<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode&theme=dark" alt="Tech stack">
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 🧊 3D Stadium (Contribution Graph)
+## `45'` &nbsp;Half-time stats
 
 <div align="center">
-  <img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D contribution graph"/>
+
+<a href="https://github.com/Aaravcodesss"><img height="165" src="https://github-readme-stats.vercel.app/api?username=Aaravcodesss&show_icons=true&hide_border=true&bg_color=05070d&title_color=00e5ff&text_color=a9b4c6&icon_color=39ff88&ring_color=ff2a46&rank_icon=github&custom_title=Season%20so%20far" alt="GitHub stats"></a>
+<a href="https://github.com/Aaravcodesss"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaravcodesss&layout=compact&hide_border=true&bg_color=05070d&title_color=00e5ff&text_color=a9b4c6&custom_title=Top%20scorers" alt="Top languages"></a>
+
+<img src="https://streak-stats.demolab.com/?user=Aaravcodesss&hide_border=true&background=05070D&stroke=141B2A&ring=FF2A46&fire=39FF88&currStreakNum=E8EEF5&currStreakLabel=00E5FF&sideNums=E8EEF5&sideLabels=7F8BA0&dates=4A5568" width="70%" alt="Unbeaten run">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aaravcodesss&bg_color=05070d&color=7f8ba0&line=00e5ff&point=ff2a46&area=true&area_color=39ff88&hide_border=true&custom_title=Match%20form" width="100%" alt="Match form">
+
 </div>
 
-## ⚽ The Dribble
+<img src="assets/divider.svg" width="100%" alt="">
+
+## `75'` &nbsp;The dribble
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aaravcodesss/Aaravcodesss/output/pitch-dribble-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/Aaravcodesss/Aaravcodesss/output/pitch-dribble.svg" alt="Ball dribbling through my contribution grid"/>
-  </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aaravcodesss/Aaravcodesss/output/pitch-dribble-dark.svg">
+  <img alt="A ball dribbling through a year of commits" src="https://raw.githubusercontent.com/Aaravcodesss/Aaravcodesss/output/pitch-dribble.svg">
+</picture>
+
+<sub>⚽ The ball weaves through a whole season of commits — refreshed every 12 hours.</sub>
+
+<details>
+<summary>📐 <b>Tactical replay</b> &nbsp;<sub>(the same season, in 3D)</sub></summary>
+<br>
+<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution graph">
+</details>
+
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider.svg" width="100%" alt="">
+
+## `90'` &nbsp;Full-time
 
 <div align="center">
 
-### 📣 Full-time whistle — thanks for visiting the stadium!
+**Fancy a game? Building something fun?**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2979ff,50:00c853,100:ff1744&height=140&section=footer&text=See%20you%20next%20matchday%20%E2%9A%BD&fontColor=ffffff&fontSize=28&fontAlignY=70&animation=twinkling" width="100%"/>
+<a href="https://github.com/Aaravcodesss"><img src="https://img.shields.io/badge/Follow-@Aaravcodesss-00e5ff?style=for-the-badge&logo=github&logoColor=05070d&labelColor=e8eef5"></a>
+
+<br><br>
+
+<img src="assets/crowd.svg" width="100%" alt="A floodlit crowd doing a Mexican wave">
+
+<sub>The pitch, the scoreboard and the crowd are all drawn in code (<a href="scripts/stadium.py">scripts/stadium.py</a>) — the move replays, the bugs keep scoring, the wave never stops. &nbsp;·&nbsp; FT: Aarav 4 – 3 Bugs FC</sub>
 
 </div>
