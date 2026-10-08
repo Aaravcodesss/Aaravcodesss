@@ -19,11 +19,16 @@
 
 <img align="right" width="150" src="https://github.com/Aaravcodesss.png?size=300" alt="Aarav" style="border-radius:50%">
 
-I'm **Aarav** — I write code the way I like my football: **quick feet, simple passes, and a bit of flair** when it counts.
+Hey, I'm **Aarav** 👋 — a developer from **India 🇮🇳** who plays code like a **left winger**: take on the defender, beat them with a bit of skill, then put the ball in the net.
 
-- ⚽ Learning by **building, breaking and fixing** — every bug is just a defender to dribble past.
-- 🧠 Currently exploring: **Python, JavaScript** and whatever the next match throws at me.
-- 🇧🇷 Neymar fan. Strong believer that a rainbow flick belongs in every codebase (once).
+I learn by doing. I start projects, break them, fix them and ship them, and every bug is just another defender to get past. Right now I'm working mostly in **Python** and **JavaScript**, and I build anything that makes me ask *"wait, how does that actually work?"*
+
+- ⚽ **Style of play:** simple passes, clean commits, and a bit of flair when it counts
+- 🎯 **This season:** finish more projects than I start, and concede fewer goals to Bugs FC
+- 🧠 **In training:** sharper debugging, cleaner code, and the next language on the list
+- 🇧🇷 **Off the pitch:** watching Neymar clips at 2 AM and calling it "research"
+
+> *"Play with flair. Ship with style."*
 
 <br clear="right">
 
