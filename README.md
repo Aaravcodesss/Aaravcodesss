@@ -91,8 +91,42 @@ Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team a
 <br>
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode&theme=dark" alt="Tech stack">
+<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode,githubactions&theme=dark" alt="Tech stack">
 </div>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## `30'` &nbsp;Highlights reel
+
+<sub>Three projects, three different positions. Click a card to see the code, or hit ▶ to play.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Aaravcodesss/tactics-board"><img src="assets/card-tactics-board.svg" width="100%" alt="Tactics Board"></a>
+<p align="center"><a href="https://aaravcodesss.github.io/tactics-board/"><b>▶ Open the board</b></a> · <a href="https://github.com/Aaravcodesss/tactics-board">Code</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Aaravcodesss/penalty-shootout"><img src="assets/card-penalty-shootout.svg" width="100%" alt="Penalty Shootout"></a>
+<p align="center"><a href="https://aaravcodesss.github.io/penalty-shootout/"><b>▶ Play the game</b></a> · <a href="https://github.com/Aaravcodesss/penalty-shootout">Code</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Aaravcodesss/league-sim"><img src="assets/card-league-sim.svg" width="100%" alt="league-sim"></a>
+<p align="center"><a href="https://github.com/Aaravcodesss/league-sim"><b>View the simulator</b></a> · <code>pip install -e .</code></p>
+</td>
+<td width="50%" valign="top">
+
+**🧪 Under the hood**
+
+- **Tactics Board**: an SVG pitch, Pointer Events for dragging on mouse and touch, and the whole lineup stored in the share link
+- **Penalty Shootout**: a canvas game loop, a keeper AI built on a Markov chain, and sound made live in Web Audio
+- **league-sim**: Elo ratings and Poisson goals, with 10k seasons running at once in numpy and 17 unit tests
+
+</td>
+</tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
