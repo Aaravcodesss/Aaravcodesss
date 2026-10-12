@@ -130,7 +130,7 @@ if __name__ == "__main__":
     card("league-sim", "PYTHON · DATA", "league-sim",
          ["Simulates a football season 10,000", "times with Elo + Poisson to get", "title & relegation odds."],
          ["Python", "numpy", "Monte Carlo"], GREEN, art_sim())
-    card("contrail-flights", "WEB APP · TRAVEL", "Contrail",
+    card("aarav-airlines", "WEB APP · TRAVEL", "Aarav Airlines",
          ["Book flights on a spinning globe —", "planes fly every route, then pick", "a seat and print your pass."],
          ["JavaScript", "Canvas", "d3-geo"], SUN, art_flight())
     for p in sorted(OUT.glob("card-*.svg")):
