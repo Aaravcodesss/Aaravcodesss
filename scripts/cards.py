@@ -10,6 +10,7 @@ OUT = Path(__file__).resolve().parent.parent / "assets"
 BG, PANEL, LINE = "#05070d", "#0a1020", "#1a2438"
 BONE, MUTED = "#e8eef5", "#7f8ba0"
 GREEN, CYAN, RED = "#39ff88", "#00e5ff", "#ff2a46"
+SUN, PINK = "#ffb547", "#ff5e7e"
 SANS = "Inter,'Segoe UI',Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace"
 W, H = 460, 250
@@ -95,6 +96,30 @@ def art_sim():
     return "".join(s), css
 
 
+def art_flight():
+    # a small globe with a route arc and a plane flying it
+    cx, cy, r = 368, 125, 70
+    s = [f'<circle cx="{cx}" cy="{cy}" r="{r + 10}" fill="{SUN}" fill-opacity=".07"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#1d1859" stroke="{SUN}" stroke-opacity=".55"/>']
+    for k in (0.35, 0.7):
+        s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{r * k:.0f}" ry="{r}" fill="none" stroke="#b4aaff" stroke-opacity=".18"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{r}" ry="{r * k:.0f}" fill="none" stroke="#b4aaff" stroke-opacity=".18"/>')
+    rng = random.Random(7)
+    for _ in range(70):
+        a, d = rng.uniform(0, math.tau), r * math.sqrt(rng.uniform(0.05, 0.85))
+        x, y = cx + d * math.cos(a), cy + d * math.sin(a)
+        if (x - cx) < 10 and (y - cy) > -40:
+            s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="1.3" fill="{SUN}" fill-opacity=".7"/>')
+    route = f"M{cx - 38} {cy + 28} Q{cx + 4} {cy - 92} {cx + 46} {cy - 18}"
+    s.append(f'<path d="{route}" fill="none" stroke="{SUN}" stroke-width="2.2" stroke-dasharray="6 6" class="rt" filter="url(#glow)"/>')
+    s.append(f'<circle cx="{cx - 38}" cy="{cy + 28}" r="4.5" fill="{CYAN}" filter="url(#glow)"/>')
+    s.append(f'<circle cx="{cx + 46}" cy="{cy - 18}" r="4.5" fill="{PINK}" filter="url(#glow)"/>')
+    plane = '<path d="M9 0 5 -1.3H1.5L-2.5 -8H-4.5L-2.2 -1.3H-6L-8 -4H-9.2L-8.2 0-9.2 4H-8L-6 1.2H-2.2L-4.5 8H-2.5L1.5 1.3H5Z" fill="#fff"/>'
+    s.append(f'<g filter="url(#glow)">{plane}<animateMotion dur="3.6s" repeatCount="indefinite" rotate="auto" path="{route}"/></g>')
+    css = ".rt{animation:rt 1.2s linear infinite}@keyframes rt{to{stroke-dashoffset:-12}}"
+    return "".join(s), css
+
+
 if __name__ == "__main__":
     card("tactics-board", "WEB APP", "Tactics Board",
          ["Pick a formation, drag players,", "draw passes & runs — then share", "the lineup as a link or a PNG."],
@@ -105,5 +130,8 @@ if __name__ == "__main__":
     card("league-sim", "PYTHON · DATA", "league-sim",
          ["Simulates a football season 10,000", "times with Elo + Poisson to get", "title & relegation odds."],
          ["Python", "numpy", "Monte Carlo"], GREEN, art_sim())
+    card("contrail-flights", "WEB APP · TRAVEL", "Contrail",
+         ["Book flights on a spinning globe —", "planes fly every route, then pick", "a seat and print your pass."],
+         ["JavaScript", "Canvas", "d3-geo"], SUN, art_flight())
     for p in sorted(OUT.glob("card-*.svg")):
         print(p.name)

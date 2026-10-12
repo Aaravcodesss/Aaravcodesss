@@ -22,7 +22,7 @@
 
 Hey there 👋 I'm **Aarav**, a **B.Tech CSE student** and a coding enthusiast who treats every project like a matchday. I study the game, take on the defenders, and look for that one bit of skill that gets the ball in the net.
 
-Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team at Nexus — MUJ chapter** 🛠️, where I build for the web with the squad and learn something new every week. I learn by doing: I start projects, break them, fix them and ship them, and every bug is just another defender to get past.
+Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team at Nexus — MUJ chapter** 🛠️, where I build for the web with the squad and learn something new every week. I learn by doing: I start projects, break them, fix them and ship them, and every bug is just another defender to get past. Football is where most of my ideas start, but not all of them — my latest build is a flight booking site with planes flying round a spinning globe ✈️
 
 - 🎓 **Academy:** B.Tech in Computer Science & Engineering
 - 🛠️ **Current club:** Jr. Committee · Web Dev team @ **Nexus MUJ**
@@ -30,6 +30,7 @@ Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team a
 - 🎯 **This season:** finish more projects than I start, and concede fewer goals to Bugs FC
 - 🧠 **In training:** sharper debugging, cleaner code, and the next language on the list
 - 🇧🇷 **Off the pitch:** watching Neymar clips at 2 AM and calling it "research"
+- ✈️ **Away days:** building travel UIs — globes, routes and boarding passes
 
 > *"Play with flair. Ship with style."*
 
@@ -73,6 +74,7 @@ Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team a
 <br>
 
 - Building small projects end-to-end and shipping them, not just starting them
+- Canvas and d3 animation — spinning globes, flight arcs and planes that actually fly
 - Getting sharper at debugging — fewer goals conceded to Bugs FC
 - Writing cleaner code: simple passes over hero balls
 
@@ -98,7 +100,7 @@ Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team a
 
 ## `30'` &nbsp;Highlights reel
 
-<sub>Three projects, three different positions. Click a card to see the code, or hit ▶ to play.</sub>
+<sub>Four projects — three on the pitch, one at 38,000 ft. Click a card to see the code, or hit ▶ to play.</sub>
 
 <table>
 <tr>
@@ -117,16 +119,22 @@ Off the lecture benches, I'm on the **Junior Committee** of the **Web Dev team a
 <p align="center"><a href="https://github.com/Aaravcodesss/league-sim"><b>View the simulator</b></a> · <code>pip install -e .</code></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/Aaravcodesss/contrail--flights"><img src="assets/card-contrail-flights.svg" width="100%" alt="Contrail — flight booking on a spinning globe"></a>
+<p align="center"><a href="https://aaravcodesss.github.io/contrail--flights/"><b>✈ Book a flight</b></a> · <a href="https://github.com/Aaravcodesss/contrail--flights">Code</a></p>
+</td>
+</tr>
+</table>
 
-**🧪 Under the hood**
+<details>
+<summary>🧪 <b>Under the hood</b> &nbsp;<sub>(how each one works)</sub></summary>
+<br>
 
+- **Contrail**: a canvas globe drawn with d3-geo, great-circle routes lifted into arcs with planes flying them, a split-flap departures board, a seat map and printable boarding passes
 - **Tactics Board**: an SVG pitch, Pointer Events for dragging on mouse and touch, and the whole lineup stored in the share link
 - **Penalty Shootout**: a canvas game loop, a keeper AI built on a Markov chain, and sound made live in Web Audio
 - **league-sim**: Elo ratings and Poisson goals, with 10k seasons running at once in numpy and 17 unit tests
 
-</td>
-</tr>
-</table>
+</details>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
